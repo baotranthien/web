@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEB QUÁ ĐẸP</title>
+    <link rel="stylesheet" href="styles_clothes.css">
+</head>
+<body>
+    <div class="container"> 
+        <div class="navbar">
+            <img src="c:\Users\Lenovo Gaming\Downloads\UrbanFashionImg\logo.png" class="logo">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="https://www.facebook.com/la.nhi.1302">About</a></li>
+                    <li><a href="">Collection</a></li>
+                    <li><a href="https://www.facebook.com/profile.php?id=100041544068122">Contact me</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="content">
+            <a href="" class="btn">2023 Collections</a>
+            <h1>You should always<br>feel XingTu</h1>
+            <p>Đồ mà bạn sẽ cần khi học quân sự</p>
+            <div class="arrow-icons" id="arrowIcons">
+                <img src="c:\Users\Lenovo Gaming\Downloads\UrbanFashionImg\back-arrow.png" id="backArrow">
+                <img src="c:\Users\Lenovo Gaming\Downloads\UrbanFashionImg\next-arrow.png" id="nextArrow">
+            </div>
+        </div>
+
+        <img src="c:\Users\Lenovo Gaming\Downloads\UrbanFashionImg\img.png" class="feature-img">
+
+        <div class="social-links">
+            <a href="">PHỞ BÒ</a>
+            <a href="">INSTAGRAM</a>
+            <a href="">0909604266</a>
+        </div>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            // Select the arrow icons and add click event listeners
+            var arrowIcons = document.getElementById('arrowIcons');
+            var backArrow = document.getElementById('backArrow');
+            var nextArrow = document.getElementById('nextArrow');
+
+            backArrow.addEventListener('click', function () {
+                // Navigate back to the original page (adjust the URL as needed)
+                window.location.href = 'index.html';
+            });
+
+            nextArrow.addEventListener('click', function () {
+                // Navigate to the next HTML page (adjust the URL as needed)
+                window.location.href = 'next-page.html';
+            });
+        });
+    </script>
+</body>
+</html>
