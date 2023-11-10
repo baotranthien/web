@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Web Page</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f7a8b7; /* Light pink background color */
+        }
+
+        header {
+            text-align: center;
+            background-color: #ed7ab3; /* A different shade of pink for the header */
+            padding: 20px;
+            color: white;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #ff69b4;
+            padding: 10px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: white;
+            padding: 10px 20px;
+        }
+
+        nav a:hover {
+            background-color: #f94d80;
+        }
+
+        section {
+            display: flex;
+            justify-content: space-around;
+            padding: 20px;
+        }
+
+        .category {
+            flex: 1;
+            background-color: rgba(255, 105, 180, 0.5); /* Pink with 50% opacity for a blur effect */
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+            text-align: center;
+        }
+
+        .category img {
+            max-width: 100%;
+            height: auto;
+            transition: transform 0.3s ease;
+        }
+
+        .category:hover img {
+            transform: scale(1.2); /* Increase image size on hover */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Tạp Hóa MACWIN</h1>
+    </header>
+    <nav>
+        <a href="foodnew.html">Food</a>
+        <a href="clothes.html">Clothes</a>
+        <a href="personal.html">Personal Uses</a>
+    </nav>    
+    <section>
+        <div id="food" class="category">
+            <h2>Food</h2>
+            <img src="https://2.bp.blogspot.com/_3EBSLC9UCd0/TJFqdxfP85I/AAAAAAAAANU/u4iSOYeBRxI/s1600/foodgeneralshot.jpg" alt="Food Image">
+        </div>
+        <div id="clothes" class="category">
+            <h2>Clothes</h2>
+            <img src="https://www.hipkids.com.au/cdn/shop/products/hipkids-isla-dress-up-clothes-rack-30124358860934_2865x.jpg?v=1665645039" alt="Clothes Image">
+        </div>
+        <div id="personal" class="category">
+            <h2>Personal Uses</h2>
+            <img src="https://img.freepik.com/free-psd/vertical-poster-template-personal-care-beauty_23-2149018344.jpg?w=2000" alt="Personal Uses Image">
+        </div>
+    </section>
+</body>
+</html>
