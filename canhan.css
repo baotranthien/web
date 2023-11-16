@@ -1,0 +1,104 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, #666, #000);
+    color: white;
+}
+
+nav {
+    background-color: #333;
+    overflow: hidden;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav li {
+    float: left;
+}
+
+nav a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: orange;
+}
+
+/* Move Contact Me, Shipping, and Shop Name to the right */
+#contactBtn, #shippingBtn, .shop-name {
+    float: right;
+}
+
+/* Adjust the font size for Contact Me, Shipping, and Shop Name */
+#contactBtn, #shippingBtn, .shop-name {
+    font-size: 80%; /* Adjust the font size as needed */
+}
+
+/* Clearfix for the navigation bar */
+nav::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.gallery {
+    margin: 20px;
+}
+
+.gallery-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.gallery-item {
+    width: 30%;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.gallery img {
+    width: 100%;
+    height: auto;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+}
+
+.gallery-item a {
+    text-decoration: none;
+}
+
+.gallery-item a:hover img {
+    border-color: orange;
+}
+.follow-us {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.follow-us p {
+    font-size: 16px; /* Adjust the font size as needed */
+    color: #f1f1f1;
+}
+
+.follow-us:hover p {
+    color: orange;
+}
+.follow-us p a {
+    text-decoration: none; /* Remove underline */
+    color: inherit; /* Inherit the color from the parent (white in this case) */
+}
+
+.follow-us p a:hover {
+    color: orange; /* Change color on hover if needed */
+}

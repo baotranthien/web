@@ -1,0 +1,83 @@
+body {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    padding: 50px 100px 100px 100px; /* Adjusted padding */
+}
+
+body video {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+body h1 {
+    position: absolute; /* Changed from relative to absolute */
+    top: 50px; /* Adjusted top position */
+    left: 100px; /* Adjusted left position */
+    font-size: 8em;
+    text-transform: capitalize;
+    text-shadow: 0 0 20px #f1f1f1;
+    color: #f1f1f1;
+}
+
+body p {
+    position: absolute; /* Changed from relative to absolute */
+    top: 50px; /* Adjusted top position */
+    left: 100px; /* Adjusted left position */
+    width: 50%;
+    color: orange;
+    margin-top: 40px;
+}
+
+body .btn {
+    position: absolute; /* Changed from relative to absolute */
+    top: 300px; /* Adjusted top position */
+    left: 100px; /* Adjusted left position */
+    display: inline-block;
+    padding: 15px 20px;
+    font-weight: 700;
+    cursor: pointer;
+    text-transform: capitalize;
+    background-color: transparent;
+    color: #f1f1f1;
+    border: 1px solid #f1f1f1;
+    transition: ease-in-out 0.2s;
+    text-decoration: none;
+}
+
+body .btn:hover {
+    background-color: #f1f1f1;
+    color: #333;
+    box-shadow: 0 0 20px #f1f1f1;
+}
+body .contact{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+body .contact span{
+    color: #f1f1f1;
+    text-transform: capitalize;
+    font-weight: 900;
+    font-size: 1.2em;
+    margin-right: 10px;
+}
+body .contact a{
+    color: orange;
+    font-size: 1.2em;
+    margin-right: 10px;
+    transition: linear 0.2s;
+    text-decoration: none;
+}
+body .contact a:hover{
+    font-size: 2em;
+    border-bottom: 2px solid transparent;
+}
